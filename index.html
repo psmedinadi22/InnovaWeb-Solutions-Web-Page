@@ -141,6 +141,36 @@
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
 								</article>
+
+								<!--Apartir de aca se ingresan imagenes de los productos innvoadores o proyectos antiguos-->
+								<article>
+									<header>
+										<span class="date">Febrero 20, 2020</span>
+										<h2>siigo</h2>
+									</header>
+									<!-- <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a> -->
+									<img src="images/siigo.jpg" alt="" class="image fit"/>
+									<p class="text-for-images">Proyecto software para contabilidad</p>
+								</article>
+								
+								<article>
+									<header>
+										<span class="date">Marzo 15, 2021</span>
+										<h2>XDentalCloud</h2>
+									</header>
+									<img src="images/xdentalcloud.jpg" alt="" class="image fit"/>
+									<p class="text-for-images">Proyecto software para Odontología</p>
+								</article>
+
+								<article>
+									<header>
+										<span class="date">Junio 05, 2022</span>
+										<h2>AutoCad</h2>
+									</header>
+									<!-- <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a> -->
+									<img src="images/autoDesk.jpg" alt="" class="image fit"/>
+									<p class="text-for-images">Proyecto software para arquitectura</p>
+								</article>
 							</section>
 
 						<!-- Footer -->
@@ -163,23 +193,40 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="post" action="https://formsubmit.co/julianricardo423@gmail.com" target="_blank">
 								<div class="fields">
 									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
+										<label for="name">Nombre</label>
+										<input type="text" name="name" id="name" required/>
 									</div>
+
+									<div class="field">
+										<label for="lastname">Apellido</label>
+										<input type="text" name="lastname" id="lastname" required/>
+									</div>
+
 									<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email" id="email" required/>
 									</div>
+
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
+										<label for="phone">Celular</label>
+										<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-123-1234" required/>
+									</div>
+
+									<div class="field">
+										<label for="country">País</label>
+										<input type="text" name="country" id="country" required/>
+									</div>
+
+									<div class="field">
+										<label for="message">Mensaje</label>
+										<textarea name="message" id="message" rows="3" required></textarea>
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" value="Enviar mensaje" /></li>
 								</ul>
 							</form>
 						</section>
